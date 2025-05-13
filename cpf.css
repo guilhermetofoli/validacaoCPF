@@ -37,3 +37,12 @@ body {
     cursor: pointer;
 }
 
+.message-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message-error {
+    background-color: #f8b7da;
+    color: #721c24;
+}
