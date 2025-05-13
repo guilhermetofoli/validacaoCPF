@@ -8,6 +8,10 @@ body {
     font-family: Arial;
 }
 
+.cpf-form label {
+    font-weight: bold;
+}
+
 .form-container {
     background-color: white;
     padding: 20px;
@@ -32,3 +36,4 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
