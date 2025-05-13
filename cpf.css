@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #9b6262;
+    background-color: #071629;
     font-family: Arial;
 }
 
@@ -21,4 +21,14 @@ body {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.form-container button {
+    padding: 10px;
+    width: 100%;
+    background-color: #13345f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
