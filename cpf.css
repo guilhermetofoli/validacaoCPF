@@ -37,6 +37,14 @@ body {
     cursor: pointer;
 }
 
+/*Estilo das mensagens*/
+.messages {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
 .message-success {
     background-color: #d4edda;
     color: #155724;
