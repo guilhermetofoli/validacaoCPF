@@ -8,7 +8,7 @@ body {
     font-family: Arial;
 }
 
-.cpf-form label {
+label {
     font-weight: bold;
 }
 
@@ -35,6 +35,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /*Estilo das mensagens*/
