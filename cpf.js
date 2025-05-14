@@ -1,14 +1,14 @@
-function validarCPF(cpf) { {
+function validarCPF(cpf) {
         cpf = cpf.replace(/[^\d]+/g,"");
 
         if(cpf.length !== 11 || /^(\d)\1+$/.test(cpf)){
             return false;
         }
-        }
         let soma = 0;
+        let resto;
 
     //Validação do 1° DV
-    for(let i=1;i <= 0; i++){
+    for(let i=1;i <= 9; i++){
         soma+= parseInt(cpf.substring(i-1, i)) * (11-i);
 
     }
